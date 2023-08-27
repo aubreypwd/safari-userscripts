@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Rounded Video Player
+@description 
+@include         http*://*youtube.com*
+@run-at          document-start
+==/UserStyle== */
+
+.html5-main-video {
+    border-radius: 12px;
+}
+
+/* Rounded-corner videos on YouTube */
+.html5-video-player.ytp-large-width-mode {
+	border-radius: 12px !important;
+}

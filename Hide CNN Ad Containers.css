@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name        Hide CNN Ad Containers
+@description Hides ad containers that have no ads due to ad-blockers.
+@include         http*://www.cnn.com*
+@run-at          document-start
+==/UserStyle== */
+
+.ad-slot-header__container,
+.ad-slot-header {
+    display: none !important;
+}
+
+body {
+    padding-top: 0 !important;
+}
+
+.ad-slot,
+.c-adSkyBox {
+    display: none !important;
+}
+
+.c-featureDynamicAd {
+    display: none !important;
+}
+
+/* Hide CNN Annoying Ad-bar */
+body.cnn .ad-slot-header__wrapper {
+    display: none !important;
+}
