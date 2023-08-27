@@ -5,11 +5,14 @@
 @run-at          document-start
 ==/UserStyle== */
 
-.html5-main-video {
-    border-radius: 12px;
-}
+@media (min-width: 600px) {
+    
+    .html5-main-video {
+        border-radius: 12px;
+    }
 
-/* Rounded-corner videos on YouTube */
-.html5-video-player.ytp-large-width-mode {
-	border-radius: 12px !important;
+    /* Rounded-corner videos on YouTube */
+    .html5-video-player.ytp-large-width-mode {
+        border-radius: 12px !important;
+    }
 }
