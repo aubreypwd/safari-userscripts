@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name            YouTube
+@include         http*://*youtube.com*
+@run-at          document-start
+==/UserStyle== */
+
+/** Hide Shorts Icon **/
+#items .ytd-guide-section-renderer:nth-child(2), /* Desktop */
+#app ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:nth-child(2) /* Mobile */
+{ 
+    display: none !important;
+}
+
+/** Rounded YouTube Videos on Desktop Only **/
+@media (min-width: 600px) {
+
+    /* Rounded-corner videos on YouTube */
+    .html5-video-player.ytp-large-width-mode,
+    .html5-main-video {
+        border-radius: 12px !important;
+    }
+}

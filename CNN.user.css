@@ -1,6 +1,5 @@
 /* ==UserStyle==
-@name        Hide CNN Ad Containers
-@description Hides ad containers that have no ads due to ad-blockers.
+@name        CNN
 @match       *://www.cnn.com/*
 @run-at          document-start
 ==/UserStyle== */
