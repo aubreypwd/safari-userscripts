@@ -3,6 +3,7 @@
 // @description Stops a site from ever opening a new tab (or window) on links.
 //              This allows you to control when to open a new window or tab.
 // @match       *://*/*
+// @run-at      document-start
 // ==/UserScript==
 
 // Convert all links to not open in a new tab or window.
